@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC -g -shared -Wl,-soname,libmosquittopp.so.1 -o libmosquittopp.so.2.0.18 CMakeFiles/mosquittopp.dir/mosquittopp.cpp.o   -L/mnt/c/playground/C/mosquitto-master/cmake-build-debug/lib  -Wl,-rpath,/mnt/c/playground/C/mosquitto-master/cmake-build-debug/lib: ../libmosquitto.so.2.0.18 -lssl -lcrypto -lpthread -lrt 

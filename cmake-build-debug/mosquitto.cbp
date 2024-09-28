@@ -1,0 +1,1804 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="mosquitto"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\cmake\;CMake Files\lib\;CMake Files\lib\cpp\;CMake Files\client\;CMake Files\src\;CMake Files\apps\;CMake Files\apps\mosquitto_ctrl\;CMake Files\apps\mosquitto_passwd\;CMake Files\plugins\;CMake Files\plugins\dynamic-security\;CMake Files\plugins\message-timestamp\;CMake Files\plugins\payload-modification\;CMake Files\man\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/mnt/c/playground/C/mosquitto-master/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/mnt/c/playground/C/mosquitto-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/mnt/c/playground/C/mosquitto-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/mnt/c/playground/C/mosquitto-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/mnt/c/playground/C/mosquitto-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test">
+				<Option working_dir="/mnt/c/playground/C/mosquitto-master/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/mnt/c/playground/C/mosquitto-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 test"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/mnt/c/playground/C/mosquitto-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/mnt/c/playground/C/mosquitto-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/mnt/c/playground/C/mosquitto-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/mnt/c/playground/C/mosquitto-master/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/mnt/c/playground/C/mosquitto-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/mnt/c/playground/C/mosquitto-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/mnt/c/playground/C/mosquitto-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/mnt/c/playground/C/mosquitto-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/mnt/c/playground/C/mosquitto-master/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/mnt/c/playground/C/mosquitto-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/mnt/c/playground/C/mosquitto-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/mnt/c/playground/C/mosquitto-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/mnt/c/playground/C/mosquitto-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="list_install_components">
+				<Option working_dir="/mnt/c/playground/C/mosquitto-master/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/mnt/c/playground/C/mosquitto-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 list_install_components"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/mnt/c/playground/C/mosquitto-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/mnt/c/playground/C/mosquitto-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/mnt/c/playground/C/mosquitto-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install">
+				<Option working_dir="/mnt/c/playground/C/mosquitto-master/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/mnt/c/playground/C/mosquitto-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 install"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/mnt/c/playground/C/mosquitto-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/mnt/c/playground/C/mosquitto-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/mnt/c/playground/C/mosquitto-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/local">
+				<Option working_dir="/mnt/c/playground/C/mosquitto-master/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/mnt/c/playground/C/mosquitto-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/local"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/mnt/c/playground/C/mosquitto-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/mnt/c/playground/C/mosquitto-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/mnt/c/playground/C/mosquitto-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/strip">
+				<Option working_dir="/mnt/c/playground/C/mosquitto-master/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/mnt/c/playground/C/mosquitto-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/strip"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/mnt/c/playground/C/mosquitto-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/mnt/c/playground/C/mosquitto-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/mnt/c/playground/C/mosquitto-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="libmosquitto">
+				<Option output="/mnt/c/playground/C/mosquitto-master/cmake-build-debug/lib/libmosquitto.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/playground/C/mosquitto-master/cmake-build-debug/lib"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DCMAKE"/>
+					<Add option="-DVERSION=&quot;2.0.18&quot;"/>
+					<Add option="-DWITH_TLS"/>
+					<Add option="-DWITH_TLS_PSK"/>
+					<Add option="-DWITH_EC"/>
+					<Add option="-DWITH_UNIX_SOCKETS"/>
+					<Add option="-DWITH_SOCKS"/>
+					<Add option="-DWITH_THREADING"/>
+					<Add directory="/mnt/c/playground/C/mosquitto-master"/>
+					<Add directory="/mnt/c/playground/C/mosquitto-master/lib"/>
+					<Add directory="/mnt/c/playground/C/mosquitto-master/include"/>
+					<Add directory="/mnt/c/playground/C/mosquitto-master/deps"/>
+					<Add directory="/usr/include/c++/12"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/12"/>
+					<Add directory="/usr/include/c++/12/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/12/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/mnt/c/playground/C/mosquitto-master/cmake-build-debug/lib/Makefile&quot;  VERBOSE=1 libmosquitto"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/mnt/c/playground/C/mosquitto-master/cmake-build-debug/lib/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/mnt/c/playground/C/mosquitto-master/cmake-build-debug/lib/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/mnt/c/playground/C/mosquitto-master/cmake-build-debug/lib/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="libmosquitto/fast">
+				<Option output="/mnt/c/playground/C/mosquitto-master/cmake-build-debug/lib/libmosquitto.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/playground/C/mosquitto-master/cmake-build-debug/lib"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DCMAKE"/>
+					<Add option="-DVERSION=&quot;2.0.18&quot;"/>
+					<Add option="-DWITH_TLS"/>
+					<Add option="-DWITH_TLS_PSK"/>
+					<Add option="-DWITH_EC"/>
+					<Add option="-DWITH_UNIX_SOCKETS"/>
+					<Add option="-DWITH_SOCKS"/>
+					<Add option="-DWITH_THREADING"/>
+					<Add directory="/mnt/c/playground/C/mosquitto-master"/>
+					<Add directory="/mnt/c/playground/C/mosquitto-master/lib"/>
+					<Add directory="/mnt/c/playground/C/mosquitto-master/include"/>
+					<Add directory="/mnt/c/playground/C/mosquitto-master/deps"/>
+					<Add directory="/usr/include/c++/12"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/12"/>
+					<Add directory="/usr/include/c++/12/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/12/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/mnt/c/playground/C/mosquitto-master/cmake-build-debug/lib/Makefile&quot;  VERBOSE=1 libmosquitto/fast"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/mnt/c/playground/C/mosquitto-master/cmake-build-debug/lib/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/mnt/c/playground/C/mosquitto-master/cmake-build-debug/lib/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/mnt/c/playground/C/mosquitto-master/cmake-build-debug/lib/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="libmosquitto_static">
+				<Option output="/mnt/c/playground/C/mosquitto-master/cmake-build-debug/lib/libmosquitto_static.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/playground/C/mosquitto-master/cmake-build-debug/lib"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DLIBMOSQUITTO_STATIC"/>
+					<Add option="-DCMAKE"/>
+					<Add option="-DVERSION=&quot;2.0.18&quot;"/>
+					<Add option="-DWITH_TLS"/>
+					<Add option="-DWITH_TLS_PSK"/>
+					<Add option="-DWITH_EC"/>
+					<Add option="-DWITH_UNIX_SOCKETS"/>
+					<Add option="-DWITH_SOCKS"/>
+					<Add option="-DWITH_THREADING"/>
+					<Add directory="/mnt/c/playground/C/mosquitto-master"/>
+					<Add directory="/mnt/c/playground/C/mosquitto-master/lib"/>
+					<Add directory="/mnt/c/playground/C/mosquitto-master/include"/>
+					<Add directory="/mnt/c/playground/C/mosquitto-master/deps"/>
+					<Add directory="/usr/include/c++/12"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/12"/>
+					<Add directory="/usr/include/c++/12/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/12/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/mnt/c/playground/C/mosquitto-master/cmake-build-debug/lib/Makefile&quot;  VERBOSE=1 libmosquitto_static"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/mnt/c/playground/C/mosquitto-master/cmake-build-debug/lib/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/mnt/c/playground/C/mosquitto-master/cmake-build-debug/lib/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/mnt/c/playground/C/mosquitto-master/cmake-build-debug/lib/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="libmosquitto_static/fast">
+				<Option output="/mnt/c/playground/C/mosquitto-master/cmake-build-debug/lib/libmosquitto_static.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/playground/C/mosquitto-master/cmake-build-debug/lib"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DLIBMOSQUITTO_STATIC"/>
+					<Add option="-DCMAKE"/>
+					<Add option="-DVERSION=&quot;2.0.18&quot;"/>
+					<Add option="-DWITH_TLS"/>
+					<Add option="-DWITH_TLS_PSK"/>
+					<Add option="-DWITH_EC"/>
+					<Add option="-DWITH_UNIX_SOCKETS"/>
+					<Add option="-DWITH_SOCKS"/>
+					<Add option="-DWITH_THREADING"/>
+					<Add directory="/mnt/c/playground/C/mosquitto-master"/>
+					<Add directory="/mnt/c/playground/C/mosquitto-master/lib"/>
+					<Add directory="/mnt/c/playground/C/mosquitto-master/include"/>
+					<Add directory="/mnt/c/playground/C/mosquitto-master/deps"/>
+					<Add directory="/usr/include/c++/12"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/12"/>
+					<Add directory="/usr/include/c++/12/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/12/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/mnt/c/playground/C/mosquitto-master/cmake-build-debug/lib/Makefile&quot;  VERBOSE=1 libmosquitto_static/fast"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/mnt/c/playground/C/mosquitto-master/cmake-build-debug/lib/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/mnt/c/playground/C/mosquitto-master/cmake-build-debug/lib/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/mnt/c/playground/C/mosquitto-master/cmake-build-debug/lib/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mosquittopp">
+				<Option output="/mnt/c/playground/C/mosquitto-master/cmake-build-debug/lib/cpp/libmosquittopp.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/playground/C/mosquitto-master/cmake-build-debug/lib/cpp"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DCMAKE"/>
+					<Add option="-DVERSION=&quot;2.0.18&quot;"/>
+					<Add option="-DWITH_TLS"/>
+					<Add option="-DWITH_TLS_PSK"/>
+					<Add option="-DWITH_EC"/>
+					<Add option="-DWITH_UNIX_SOCKETS"/>
+					<Add option="-DWITH_SOCKS"/>
+					<Add option="-DWITH_THREADING"/>
+					<Add directory="/mnt/c/playground/C/mosquitto-master/lib"/>
+					<Add directory="/mnt/c/playground/C/mosquitto-master/lib/cpp"/>
+					<Add directory="/mnt/c/playground/C/mosquitto-master/include"/>
+					<Add directory="/usr/include/c++/12"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/12"/>
+					<Add directory="/usr/include/c++/12/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/12/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/mnt/c/playground/C/mosquitto-master/cmake-build-debug/lib/cpp/Makefile&quot;  VERBOSE=1 mosquittopp"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/mnt/c/playground/C/mosquitto-master/cmake-build-debug/lib/cpp/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/mnt/c/playground/C/mosquitto-master/cmake-build-debug/lib/cpp/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/mnt/c/playground/C/mosquitto-master/cmake-build-debug/lib/cpp/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mosquittopp/fast">
+				<Option output="/mnt/c/playground/C/mosquitto-master/cmake-build-debug/lib/cpp/libmosquittopp.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/playground/C/mosquitto-master/cmake-build-debug/lib/cpp"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DCMAKE"/>
+					<Add option="-DVERSION=&quot;2.0.18&quot;"/>
+					<Add option="-DWITH_TLS"/>
+					<Add option="-DWITH_TLS_PSK"/>
+					<Add option="-DWITH_EC"/>
+					<Add option="-DWITH_UNIX_SOCKETS"/>
+					<Add option="-DWITH_SOCKS"/>
+					<Add option="-DWITH_THREADING"/>
+					<Add directory="/mnt/c/playground/C/mosquitto-master/lib"/>
+					<Add directory="/mnt/c/playground/C/mosquitto-master/lib/cpp"/>
+					<Add directory="/mnt/c/playground/C/mosquitto-master/include"/>
+					<Add directory="/usr/include/c++/12"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/12"/>
+					<Add directory="/usr/include/c++/12/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/12/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/mnt/c/playground/C/mosquitto-master/cmake-build-debug/lib/cpp/Makefile&quot;  VERBOSE=1 mosquittopp/fast"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/mnt/c/playground/C/mosquitto-master/cmake-build-debug/lib/cpp/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/mnt/c/playground/C/mosquitto-master/cmake-build-debug/lib/cpp/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/mnt/c/playground/C/mosquitto-master/cmake-build-debug/lib/cpp/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mosquittopp_static">
+				<Option output="/mnt/c/playground/C/mosquitto-master/cmake-build-debug/lib/cpp/libmosquittopp_static.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/playground/C/mosquitto-master/cmake-build-debug/lib/cpp"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DLIBMOSQUITTO_STATIC"/>
+					<Add option="-DCMAKE"/>
+					<Add option="-DVERSION=&quot;2.0.18&quot;"/>
+					<Add option="-DWITH_TLS"/>
+					<Add option="-DWITH_TLS_PSK"/>
+					<Add option="-DWITH_EC"/>
+					<Add option="-DWITH_UNIX_SOCKETS"/>
+					<Add option="-DWITH_SOCKS"/>
+					<Add option="-DWITH_THREADING"/>
+					<Add directory="/mnt/c/playground/C/mosquitto-master/lib"/>
+					<Add directory="/mnt/c/playground/C/mosquitto-master/lib/cpp"/>
+					<Add directory="/mnt/c/playground/C/mosquitto-master/include"/>
+					<Add directory="/usr/include/c++/12"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/12"/>
+					<Add directory="/usr/include/c++/12/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/12/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/mnt/c/playground/C/mosquitto-master/cmake-build-debug/lib/cpp/Makefile&quot;  VERBOSE=1 mosquittopp_static"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/mnt/c/playground/C/mosquitto-master/cmake-build-debug/lib/cpp/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/mnt/c/playground/C/mosquitto-master/cmake-build-debug/lib/cpp/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/mnt/c/playground/C/mosquitto-master/cmake-build-debug/lib/cpp/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mosquittopp_static/fast">
+				<Option output="/mnt/c/playground/C/mosquitto-master/cmake-build-debug/lib/cpp/libmosquittopp_static.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/playground/C/mosquitto-master/cmake-build-debug/lib/cpp"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DLIBMOSQUITTO_STATIC"/>
+					<Add option="-DCMAKE"/>
+					<Add option="-DVERSION=&quot;2.0.18&quot;"/>
+					<Add option="-DWITH_TLS"/>
+					<Add option="-DWITH_TLS_PSK"/>
+					<Add option="-DWITH_EC"/>
+					<Add option="-DWITH_UNIX_SOCKETS"/>
+					<Add option="-DWITH_SOCKS"/>
+					<Add option="-DWITH_THREADING"/>
+					<Add directory="/mnt/c/playground/C/mosquitto-master/lib"/>
+					<Add directory="/mnt/c/playground/C/mosquitto-master/lib/cpp"/>
+					<Add directory="/mnt/c/playground/C/mosquitto-master/include"/>
+					<Add directory="/usr/include/c++/12"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/12"/>
+					<Add directory="/usr/include/c++/12/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/12/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/mnt/c/playground/C/mosquitto-master/cmake-build-debug/lib/cpp/Makefile&quot;  VERBOSE=1 mosquittopp_static/fast"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/mnt/c/playground/C/mosquitto-master/cmake-build-debug/lib/cpp/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/mnt/c/playground/C/mosquitto-master/cmake-build-debug/lib/cpp/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/mnt/c/playground/C/mosquitto-master/cmake-build-debug/lib/cpp/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mosquitto_pub">
+				<Option output="/mnt/c/playground/C/mosquitto-master/cmake-build-debug/client/mosquitto_pub" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/playground/C/mosquitto-master/cmake-build-debug/client"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DCMAKE"/>
+					<Add option="-DVERSION=&quot;2.0.18&quot;"/>
+					<Add option="-DWITH_TLS"/>
+					<Add option="-DWITH_TLS_PSK"/>
+					<Add option="-DWITH_EC"/>
+					<Add option="-DWITH_UNIX_SOCKETS"/>
+					<Add option="-DWITH_SOCKS"/>
+					<Add option="-DWITH_THREADING"/>
+					<Add option="-DWITH_CJSON"/>
+					<Add option="-DLIBMOSQUITTO_STATIC"/>
+					<Add directory="/mnt/c/playground/C/mosquitto-master"/>
+					<Add directory="/mnt/c/playground/C/mosquitto-master/include"/>
+					<Add directory="/usr/include/c++/12"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/12"/>
+					<Add directory="/usr/include/c++/12/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/12/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/mnt/c/playground/C/mosquitto-master/cmake-build-debug/client/Makefile&quot;  VERBOSE=1 mosquitto_pub"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/mnt/c/playground/C/mosquitto-master/cmake-build-debug/client/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/mnt/c/playground/C/mosquitto-master/cmake-build-debug/client/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/mnt/c/playground/C/mosquitto-master/cmake-build-debug/client/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mosquitto_pub/fast">
+				<Option output="/mnt/c/playground/C/mosquitto-master/cmake-build-debug/client/mosquitto_pub" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/playground/C/mosquitto-master/cmake-build-debug/client"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DCMAKE"/>
+					<Add option="-DVERSION=&quot;2.0.18&quot;"/>
+					<Add option="-DWITH_TLS"/>
+					<Add option="-DWITH_TLS_PSK"/>
+					<Add option="-DWITH_EC"/>
+					<Add option="-DWITH_UNIX_SOCKETS"/>
+					<Add option="-DWITH_SOCKS"/>
+					<Add option="-DWITH_THREADING"/>
+					<Add option="-DWITH_CJSON"/>
+					<Add option="-DLIBMOSQUITTO_STATIC"/>
+					<Add directory="/mnt/c/playground/C/mosquitto-master"/>
+					<Add directory="/mnt/c/playground/C/mosquitto-master/include"/>
+					<Add directory="/usr/include/c++/12"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/12"/>
+					<Add directory="/usr/include/c++/12/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/12/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/mnt/c/playground/C/mosquitto-master/cmake-build-debug/client/Makefile&quot;  VERBOSE=1 mosquitto_pub/fast"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/mnt/c/playground/C/mosquitto-master/cmake-build-debug/client/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/mnt/c/playground/C/mosquitto-master/cmake-build-debug/client/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/mnt/c/playground/C/mosquitto-master/cmake-build-debug/client/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mosquitto_sub">
+				<Option output="/mnt/c/playground/C/mosquitto-master/cmake-build-debug/client/mosquitto_sub" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/playground/C/mosquitto-master/cmake-build-debug/client"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DCMAKE"/>
+					<Add option="-DVERSION=&quot;2.0.18&quot;"/>
+					<Add option="-DWITH_TLS"/>
+					<Add option="-DWITH_TLS_PSK"/>
+					<Add option="-DWITH_EC"/>
+					<Add option="-DWITH_UNIX_SOCKETS"/>
+					<Add option="-DWITH_SOCKS"/>
+					<Add option="-DWITH_THREADING"/>
+					<Add option="-DWITH_CJSON"/>
+					<Add option="-DLIBMOSQUITTO_STATIC"/>
+					<Add directory="/mnt/c/playground/C/mosquitto-master"/>
+					<Add directory="/mnt/c/playground/C/mosquitto-master/include"/>
+					<Add directory="/usr/include/c++/12"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/12"/>
+					<Add directory="/usr/include/c++/12/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/12/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/mnt/c/playground/C/mosquitto-master/cmake-build-debug/client/Makefile&quot;  VERBOSE=1 mosquitto_sub"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/mnt/c/playground/C/mosquitto-master/cmake-build-debug/client/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/mnt/c/playground/C/mosquitto-master/cmake-build-debug/client/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/mnt/c/playground/C/mosquitto-master/cmake-build-debug/client/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mosquitto_sub/fast">
+				<Option output="/mnt/c/playground/C/mosquitto-master/cmake-build-debug/client/mosquitto_sub" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/playground/C/mosquitto-master/cmake-build-debug/client"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DCMAKE"/>
+					<Add option="-DVERSION=&quot;2.0.18&quot;"/>
+					<Add option="-DWITH_TLS"/>
+					<Add option="-DWITH_TLS_PSK"/>
+					<Add option="-DWITH_EC"/>
+					<Add option="-DWITH_UNIX_SOCKETS"/>
+					<Add option="-DWITH_SOCKS"/>
+					<Add option="-DWITH_THREADING"/>
+					<Add option="-DWITH_CJSON"/>
+					<Add option="-DLIBMOSQUITTO_STATIC"/>
+					<Add directory="/mnt/c/playground/C/mosquitto-master"/>
+					<Add directory="/mnt/c/playground/C/mosquitto-master/include"/>
+					<Add directory="/usr/include/c++/12"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/12"/>
+					<Add directory="/usr/include/c++/12/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/12/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/mnt/c/playground/C/mosquitto-master/cmake-build-debug/client/Makefile&quot;  VERBOSE=1 mosquitto_sub/fast"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/mnt/c/playground/C/mosquitto-master/cmake-build-debug/client/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/mnt/c/playground/C/mosquitto-master/cmake-build-debug/client/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/mnt/c/playground/C/mosquitto-master/cmake-build-debug/client/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mosquitto_rr">
+				<Option output="/mnt/c/playground/C/mosquitto-master/cmake-build-debug/client/mosquitto_rr" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/playground/C/mosquitto-master/cmake-build-debug/client"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DCMAKE"/>
+					<Add option="-DVERSION=&quot;2.0.18&quot;"/>
+					<Add option="-DWITH_TLS"/>
+					<Add option="-DWITH_TLS_PSK"/>
+					<Add option="-DWITH_EC"/>
+					<Add option="-DWITH_UNIX_SOCKETS"/>
+					<Add option="-DWITH_SOCKS"/>
+					<Add option="-DWITH_THREADING"/>
+					<Add option="-DWITH_CJSON"/>
+					<Add option="-DLIBMOSQUITTO_STATIC"/>
+					<Add directory="/mnt/c/playground/C/mosquitto-master"/>
+					<Add directory="/mnt/c/playground/C/mosquitto-master/include"/>
+					<Add directory="/usr/include/c++/12"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/12"/>
+					<Add directory="/usr/include/c++/12/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/12/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/mnt/c/playground/C/mosquitto-master/cmake-build-debug/client/Makefile&quot;  VERBOSE=1 mosquitto_rr"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/mnt/c/playground/C/mosquitto-master/cmake-build-debug/client/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/mnt/c/playground/C/mosquitto-master/cmake-build-debug/client/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/mnt/c/playground/C/mosquitto-master/cmake-build-debug/client/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mosquitto_rr/fast">
+				<Option output="/mnt/c/playground/C/mosquitto-master/cmake-build-debug/client/mosquitto_rr" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/playground/C/mosquitto-master/cmake-build-debug/client"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DCMAKE"/>
+					<Add option="-DVERSION=&quot;2.0.18&quot;"/>
+					<Add option="-DWITH_TLS"/>
+					<Add option="-DWITH_TLS_PSK"/>
+					<Add option="-DWITH_EC"/>
+					<Add option="-DWITH_UNIX_SOCKETS"/>
+					<Add option="-DWITH_SOCKS"/>
+					<Add option="-DWITH_THREADING"/>
+					<Add option="-DWITH_CJSON"/>
+					<Add option="-DLIBMOSQUITTO_STATIC"/>
+					<Add directory="/mnt/c/playground/C/mosquitto-master"/>
+					<Add directory="/mnt/c/playground/C/mosquitto-master/include"/>
+					<Add directory="/usr/include/c++/12"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/12"/>
+					<Add directory="/usr/include/c++/12/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/12/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/mnt/c/playground/C/mosquitto-master/cmake-build-debug/client/Makefile&quot;  VERBOSE=1 mosquitto_rr/fast"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/mnt/c/playground/C/mosquitto-master/cmake-build-debug/client/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/mnt/c/playground/C/mosquitto-master/cmake-build-debug/client/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/mnt/c/playground/C/mosquitto-master/cmake-build-debug/client/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mosquitto">
+				<Option output="/mnt/c/playground/C/mosquitto-master/cmake-build-debug/src/mosquitto" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/playground/C/mosquitto-master/cmake-build-debug/src"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DCMAKE"/>
+					<Add option="-DVERSION=&quot;2.0.18&quot;"/>
+					<Add option="-DWITH_TLS"/>
+					<Add option="-DWITH_TLS_PSK"/>
+					<Add option="-DWITH_EC"/>
+					<Add option="-DWITH_UNIX_SOCKETS"/>
+					<Add option="-DWITH_SOCKS"/>
+					<Add option="-DWITH_THREADING"/>
+					<Add option="-DWITH_EPOLL"/>
+					<Add option="-DWITH_BRIDGE"/>
+					<Add option="-DWITH_MEMORY_TRACKING"/>
+					<Add option="-DWITH_PERSISTENCE"/>
+					<Add option="-DWITH_SYS_TREE"/>
+					<Add option="-DWITH_CONTROL"/>
+					<Add option="-DWITH_BROKER"/>
+					<Add directory="/mnt/c/playground/C/mosquitto-master"/>
+					<Add directory="/mnt/c/playground/C/mosquitto-master/src"/>
+					<Add directory="/mnt/c/playground/C/mosquitto-master/include"/>
+					<Add directory="/mnt/c/playground/C/mosquitto-master/lib"/>
+					<Add directory="/mnt/c/playground/C/mosquitto-master/deps"/>
+					<Add directory="/usr/include/c++/12"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/12"/>
+					<Add directory="/usr/include/c++/12/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/12/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/mnt/c/playground/C/mosquitto-master/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 mosquitto"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/mnt/c/playground/C/mosquitto-master/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/mnt/c/playground/C/mosquitto-master/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/mnt/c/playground/C/mosquitto-master/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mosquitto/fast">
+				<Option output="/mnt/c/playground/C/mosquitto-master/cmake-build-debug/src/mosquitto" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/playground/C/mosquitto-master/cmake-build-debug/src"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DCMAKE"/>
+					<Add option="-DVERSION=&quot;2.0.18&quot;"/>
+					<Add option="-DWITH_TLS"/>
+					<Add option="-DWITH_TLS_PSK"/>
+					<Add option="-DWITH_EC"/>
+					<Add option="-DWITH_UNIX_SOCKETS"/>
+					<Add option="-DWITH_SOCKS"/>
+					<Add option="-DWITH_THREADING"/>
+					<Add option="-DWITH_EPOLL"/>
+					<Add option="-DWITH_BRIDGE"/>
+					<Add option="-DWITH_MEMORY_TRACKING"/>
+					<Add option="-DWITH_PERSISTENCE"/>
+					<Add option="-DWITH_SYS_TREE"/>
+					<Add option="-DWITH_CONTROL"/>
+					<Add option="-DWITH_BROKER"/>
+					<Add directory="/mnt/c/playground/C/mosquitto-master"/>
+					<Add directory="/mnt/c/playground/C/mosquitto-master/src"/>
+					<Add directory="/mnt/c/playground/C/mosquitto-master/include"/>
+					<Add directory="/mnt/c/playground/C/mosquitto-master/lib"/>
+					<Add directory="/mnt/c/playground/C/mosquitto-master/deps"/>
+					<Add directory="/usr/include/c++/12"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/12"/>
+					<Add directory="/usr/include/c++/12/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/12/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/mnt/c/playground/C/mosquitto-master/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 mosquitto/fast"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/mnt/c/playground/C/mosquitto-master/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/mnt/c/playground/C/mosquitto-master/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/mnt/c/playground/C/mosquitto-master/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mosquitto_ctrl">
+				<Option output="/mnt/c/playground/C/mosquitto-master/cmake-build-debug/apps/mosquitto_ctrl/mosquitto_ctrl" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/playground/C/mosquitto-master/cmake-build-debug/apps/mosquitto_ctrl"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DCMAKE"/>
+					<Add option="-DVERSION=&quot;2.0.18&quot;"/>
+					<Add option="-DWITH_TLS"/>
+					<Add option="-DWITH_TLS_PSK"/>
+					<Add option="-DWITH_EC"/>
+					<Add option="-DWITH_UNIX_SOCKETS"/>
+					<Add option="-DWITH_SOCKS"/>
+					<Add option="-DWITH_THREADING"/>
+					<Add option="-DWITH_CJSON"/>
+					<Add option="-DLIBMOSQUITTO_STATIC"/>
+					<Add directory="/mnt/c/playground/C/mosquitto-master"/>
+					<Add directory="/mnt/c/playground/C/mosquitto-master/include"/>
+					<Add directory="/mnt/c/playground/C/mosquitto-master/lib"/>
+					<Add directory="/mnt/c/playground/C/mosquitto-master/src"/>
+					<Add directory="/mnt/c/playground/C/mosquitto-master/apps/mosquitto_passwd"/>
+					<Add directory="/usr/include/c++/12"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/12"/>
+					<Add directory="/usr/include/c++/12/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/12/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/mnt/c/playground/C/mosquitto-master/cmake-build-debug/apps/mosquitto_ctrl/Makefile&quot;  VERBOSE=1 mosquitto_ctrl"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/mnt/c/playground/C/mosquitto-master/cmake-build-debug/apps/mosquitto_ctrl/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/mnt/c/playground/C/mosquitto-master/cmake-build-debug/apps/mosquitto_ctrl/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/mnt/c/playground/C/mosquitto-master/cmake-build-debug/apps/mosquitto_ctrl/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mosquitto_ctrl/fast">
+				<Option output="/mnt/c/playground/C/mosquitto-master/cmake-build-debug/apps/mosquitto_ctrl/mosquitto_ctrl" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/playground/C/mosquitto-master/cmake-build-debug/apps/mosquitto_ctrl"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DCMAKE"/>
+					<Add option="-DVERSION=&quot;2.0.18&quot;"/>
+					<Add option="-DWITH_TLS"/>
+					<Add option="-DWITH_TLS_PSK"/>
+					<Add option="-DWITH_EC"/>
+					<Add option="-DWITH_UNIX_SOCKETS"/>
+					<Add option="-DWITH_SOCKS"/>
+					<Add option="-DWITH_THREADING"/>
+					<Add option="-DWITH_CJSON"/>
+					<Add option="-DLIBMOSQUITTO_STATIC"/>
+					<Add directory="/mnt/c/playground/C/mosquitto-master"/>
+					<Add directory="/mnt/c/playground/C/mosquitto-master/include"/>
+					<Add directory="/mnt/c/playground/C/mosquitto-master/lib"/>
+					<Add directory="/mnt/c/playground/C/mosquitto-master/src"/>
+					<Add directory="/mnt/c/playground/C/mosquitto-master/apps/mosquitto_passwd"/>
+					<Add directory="/usr/include/c++/12"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/12"/>
+					<Add directory="/usr/include/c++/12/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/12/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/mnt/c/playground/C/mosquitto-master/cmake-build-debug/apps/mosquitto_ctrl/Makefile&quot;  VERBOSE=1 mosquitto_ctrl/fast"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/mnt/c/playground/C/mosquitto-master/cmake-build-debug/apps/mosquitto_ctrl/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/mnt/c/playground/C/mosquitto-master/cmake-build-debug/apps/mosquitto_ctrl/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/mnt/c/playground/C/mosquitto-master/cmake-build-debug/apps/mosquitto_ctrl/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mosquitto_passwd">
+				<Option output="/mnt/c/playground/C/mosquitto-master/cmake-build-debug/apps/mosquitto_passwd/mosquitto_passwd" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/playground/C/mosquitto-master/cmake-build-debug/apps/mosquitto_passwd"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DCMAKE"/>
+					<Add option="-DVERSION=&quot;2.0.18&quot;"/>
+					<Add option="-DWITH_TLS"/>
+					<Add option="-DWITH_TLS_PSK"/>
+					<Add option="-DWITH_EC"/>
+					<Add option="-DWITH_UNIX_SOCKETS"/>
+					<Add option="-DWITH_SOCKS"/>
+					<Add option="-DWITH_THREADING"/>
+					<Add directory="/mnt/c/playground/C/mosquitto-master"/>
+					<Add directory="/mnt/c/playground/C/mosquitto-master/include"/>
+					<Add directory="/mnt/c/playground/C/mosquitto-master/lib"/>
+					<Add directory="/mnt/c/playground/C/mosquitto-master/src"/>
+					<Add directory="/usr/include/c++/12"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/12"/>
+					<Add directory="/usr/include/c++/12/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/12/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/mnt/c/playground/C/mosquitto-master/cmake-build-debug/apps/mosquitto_passwd/Makefile&quot;  VERBOSE=1 mosquitto_passwd"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/mnt/c/playground/C/mosquitto-master/cmake-build-debug/apps/mosquitto_passwd/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/mnt/c/playground/C/mosquitto-master/cmake-build-debug/apps/mosquitto_passwd/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/mnt/c/playground/C/mosquitto-master/cmake-build-debug/apps/mosquitto_passwd/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mosquitto_passwd/fast">
+				<Option output="/mnt/c/playground/C/mosquitto-master/cmake-build-debug/apps/mosquitto_passwd/mosquitto_passwd" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/playground/C/mosquitto-master/cmake-build-debug/apps/mosquitto_passwd"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DCMAKE"/>
+					<Add option="-DVERSION=&quot;2.0.18&quot;"/>
+					<Add option="-DWITH_TLS"/>
+					<Add option="-DWITH_TLS_PSK"/>
+					<Add option="-DWITH_EC"/>
+					<Add option="-DWITH_UNIX_SOCKETS"/>
+					<Add option="-DWITH_SOCKS"/>
+					<Add option="-DWITH_THREADING"/>
+					<Add directory="/mnt/c/playground/C/mosquitto-master"/>
+					<Add directory="/mnt/c/playground/C/mosquitto-master/include"/>
+					<Add directory="/mnt/c/playground/C/mosquitto-master/lib"/>
+					<Add directory="/mnt/c/playground/C/mosquitto-master/src"/>
+					<Add directory="/usr/include/c++/12"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/12"/>
+					<Add directory="/usr/include/c++/12/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/12/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/mnt/c/playground/C/mosquitto-master/cmake-build-debug/apps/mosquitto_passwd/Makefile&quot;  VERBOSE=1 mosquitto_passwd/fast"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/mnt/c/playground/C/mosquitto-master/cmake-build-debug/apps/mosquitto_passwd/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/mnt/c/playground/C/mosquitto-master/cmake-build-debug/apps/mosquitto_passwd/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/mnt/c/playground/C/mosquitto-master/cmake-build-debug/apps/mosquitto_passwd/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mosquitto_dynamic_security">
+				<Option output="/mnt/c/playground/C/mosquitto-master/cmake-build-debug/plugins/dynamic-security/mosquitto_dynamic_security.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/playground/C/mosquitto-master/cmake-build-debug/plugins/dynamic-security"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DCMAKE"/>
+					<Add option="-DVERSION=&quot;2.0.18&quot;"/>
+					<Add option="-DWITH_TLS"/>
+					<Add option="-DWITH_TLS_PSK"/>
+					<Add option="-DWITH_EC"/>
+					<Add option="-DWITH_UNIX_SOCKETS"/>
+					<Add option="-DWITH_SOCKS"/>
+					<Add option="-DWITH_THREADING"/>
+					<Add option="-DWITH_CJSON"/>
+					<Add directory="/mnt/c/playground/C/mosquitto-master"/>
+					<Add directory="/mnt/c/playground/C/mosquitto-master/include"/>
+					<Add directory="/mnt/c/playground/C/mosquitto-master/deps"/>
+					<Add directory="/mnt/c/playground/C/mosquitto-master/src"/>
+					<Add directory="/usr/include/c++/12"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/12"/>
+					<Add directory="/usr/include/c++/12/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/12/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/mnt/c/playground/C/mosquitto-master/cmake-build-debug/plugins/dynamic-security/Makefile&quot;  VERBOSE=1 mosquitto_dynamic_security"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/mnt/c/playground/C/mosquitto-master/cmake-build-debug/plugins/dynamic-security/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/mnt/c/playground/C/mosquitto-master/cmake-build-debug/plugins/dynamic-security/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/mnt/c/playground/C/mosquitto-master/cmake-build-debug/plugins/dynamic-security/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mosquitto_dynamic_security/fast">
+				<Option output="/mnt/c/playground/C/mosquitto-master/cmake-build-debug/plugins/dynamic-security/mosquitto_dynamic_security.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/playground/C/mosquitto-master/cmake-build-debug/plugins/dynamic-security"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DCMAKE"/>
+					<Add option="-DVERSION=&quot;2.0.18&quot;"/>
+					<Add option="-DWITH_TLS"/>
+					<Add option="-DWITH_TLS_PSK"/>
+					<Add option="-DWITH_EC"/>
+					<Add option="-DWITH_UNIX_SOCKETS"/>
+					<Add option="-DWITH_SOCKS"/>
+					<Add option="-DWITH_THREADING"/>
+					<Add option="-DWITH_CJSON"/>
+					<Add directory="/mnt/c/playground/C/mosquitto-master"/>
+					<Add directory="/mnt/c/playground/C/mosquitto-master/include"/>
+					<Add directory="/mnt/c/playground/C/mosquitto-master/deps"/>
+					<Add directory="/mnt/c/playground/C/mosquitto-master/src"/>
+					<Add directory="/usr/include/c++/12"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/12"/>
+					<Add directory="/usr/include/c++/12/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/12/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/mnt/c/playground/C/mosquitto-master/cmake-build-debug/plugins/dynamic-security/Makefile&quot;  VERBOSE=1 mosquitto_dynamic_security/fast"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/mnt/c/playground/C/mosquitto-master/cmake-build-debug/plugins/dynamic-security/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/mnt/c/playground/C/mosquitto-master/cmake-build-debug/plugins/dynamic-security/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/mnt/c/playground/C/mosquitto-master/cmake-build-debug/plugins/dynamic-security/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mosquitto_message_timestamp">
+				<Option output="/mnt/c/playground/C/mosquitto-master/cmake-build-debug/plugins/message-timestamp/mosquitto_message_timestamp.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/playground/C/mosquitto-master/cmake-build-debug/plugins/message-timestamp"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DCMAKE"/>
+					<Add option="-DVERSION=&quot;2.0.18&quot;"/>
+					<Add option="-DWITH_TLS"/>
+					<Add option="-DWITH_TLS_PSK"/>
+					<Add option="-DWITH_EC"/>
+					<Add option="-DWITH_UNIX_SOCKETS"/>
+					<Add option="-DWITH_SOCKS"/>
+					<Add option="-DWITH_THREADING"/>
+					<Add directory="/mnt/c/playground/C/mosquitto-master"/>
+					<Add directory="/mnt/c/playground/C/mosquitto-master/include"/>
+					<Add directory="/usr/include/c++/12"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/12"/>
+					<Add directory="/usr/include/c++/12/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/12/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/mnt/c/playground/C/mosquitto-master/cmake-build-debug/plugins/message-timestamp/Makefile&quot;  VERBOSE=1 mosquitto_message_timestamp"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/mnt/c/playground/C/mosquitto-master/cmake-build-debug/plugins/message-timestamp/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/mnt/c/playground/C/mosquitto-master/cmake-build-debug/plugins/message-timestamp/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/mnt/c/playground/C/mosquitto-master/cmake-build-debug/plugins/message-timestamp/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mosquitto_message_timestamp/fast">
+				<Option output="/mnt/c/playground/C/mosquitto-master/cmake-build-debug/plugins/message-timestamp/mosquitto_message_timestamp.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/playground/C/mosquitto-master/cmake-build-debug/plugins/message-timestamp"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DCMAKE"/>
+					<Add option="-DVERSION=&quot;2.0.18&quot;"/>
+					<Add option="-DWITH_TLS"/>
+					<Add option="-DWITH_TLS_PSK"/>
+					<Add option="-DWITH_EC"/>
+					<Add option="-DWITH_UNIX_SOCKETS"/>
+					<Add option="-DWITH_SOCKS"/>
+					<Add option="-DWITH_THREADING"/>
+					<Add directory="/mnt/c/playground/C/mosquitto-master"/>
+					<Add directory="/mnt/c/playground/C/mosquitto-master/include"/>
+					<Add directory="/usr/include/c++/12"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/12"/>
+					<Add directory="/usr/include/c++/12/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/12/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/mnt/c/playground/C/mosquitto-master/cmake-build-debug/plugins/message-timestamp/Makefile&quot;  VERBOSE=1 mosquitto_message_timestamp/fast"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/mnt/c/playground/C/mosquitto-master/cmake-build-debug/plugins/message-timestamp/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/mnt/c/playground/C/mosquitto-master/cmake-build-debug/plugins/message-timestamp/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/mnt/c/playground/C/mosquitto-master/cmake-build-debug/plugins/message-timestamp/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mosquitto_payload_modification">
+				<Option output="/mnt/c/playground/C/mosquitto-master/cmake-build-debug/plugins/payload-modification/mosquitto_payload_modification.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/playground/C/mosquitto-master/cmake-build-debug/plugins/payload-modification"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DCMAKE"/>
+					<Add option="-DVERSION=&quot;2.0.18&quot;"/>
+					<Add option="-DWITH_TLS"/>
+					<Add option="-DWITH_TLS_PSK"/>
+					<Add option="-DWITH_EC"/>
+					<Add option="-DWITH_UNIX_SOCKETS"/>
+					<Add option="-DWITH_SOCKS"/>
+					<Add option="-DWITH_THREADING"/>
+					<Add directory="/mnt/c/playground/C/mosquitto-master"/>
+					<Add directory="/mnt/c/playground/C/mosquitto-master/include"/>
+					<Add directory="/usr/include/c++/12"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/12"/>
+					<Add directory="/usr/include/c++/12/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/12/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/mnt/c/playground/C/mosquitto-master/cmake-build-debug/plugins/payload-modification/Makefile&quot;  VERBOSE=1 mosquitto_payload_modification"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/mnt/c/playground/C/mosquitto-master/cmake-build-debug/plugins/payload-modification/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/mnt/c/playground/C/mosquitto-master/cmake-build-debug/plugins/payload-modification/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/mnt/c/playground/C/mosquitto-master/cmake-build-debug/plugins/payload-modification/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mosquitto_payload_modification/fast">
+				<Option output="/mnt/c/playground/C/mosquitto-master/cmake-build-debug/plugins/payload-modification/mosquitto_payload_modification.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/playground/C/mosquitto-master/cmake-build-debug/plugins/payload-modification"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DCMAKE"/>
+					<Add option="-DVERSION=&quot;2.0.18&quot;"/>
+					<Add option="-DWITH_TLS"/>
+					<Add option="-DWITH_TLS_PSK"/>
+					<Add option="-DWITH_EC"/>
+					<Add option="-DWITH_UNIX_SOCKETS"/>
+					<Add option="-DWITH_SOCKS"/>
+					<Add option="-DWITH_THREADING"/>
+					<Add directory="/mnt/c/playground/C/mosquitto-master"/>
+					<Add directory="/mnt/c/playground/C/mosquitto-master/include"/>
+					<Add directory="/usr/include/c++/12"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/12"/>
+					<Add directory="/usr/include/c++/12/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/12/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/mnt/c/playground/C/mosquitto-master/cmake-build-debug/plugins/payload-modification/Makefile&quot;  VERBOSE=1 mosquitto_payload_modification/fast"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/mnt/c/playground/C/mosquitto-master/cmake-build-debug/plugins/payload-modification/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/mnt/c/playground/C/mosquitto-master/cmake-build-debug/plugins/payload-modification/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/mnt/c/playground/C/mosquitto-master/cmake-build-debug/plugins/payload-modification/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mosquitto_ctrl.1">
+				<Option working_dir="/mnt/c/playground/C/mosquitto-master/cmake-build-debug/man"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/mnt/c/playground/C/mosquitto-master/cmake-build-debug/man/Makefile&quot;  VERBOSE=1 mosquitto_ctrl.1"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/mnt/c/playground/C/mosquitto-master/cmake-build-debug/man/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/mnt/c/playground/C/mosquitto-master/cmake-build-debug/man/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/mnt/c/playground/C/mosquitto-master/cmake-build-debug/man/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mosquitto_ctrl_dynsec.1">
+				<Option working_dir="/mnt/c/playground/C/mosquitto-master/cmake-build-debug/man"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/mnt/c/playground/C/mosquitto-master/cmake-build-debug/man/Makefile&quot;  VERBOSE=1 mosquitto_ctrl_dynsec.1"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/mnt/c/playground/C/mosquitto-master/cmake-build-debug/man/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/mnt/c/playground/C/mosquitto-master/cmake-build-debug/man/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/mnt/c/playground/C/mosquitto-master/cmake-build-debug/man/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mosquitto_passwd.1">
+				<Option working_dir="/mnt/c/playground/C/mosquitto-master/cmake-build-debug/man"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/mnt/c/playground/C/mosquitto-master/cmake-build-debug/man/Makefile&quot;  VERBOSE=1 mosquitto_passwd.1"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/mnt/c/playground/C/mosquitto-master/cmake-build-debug/man/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/mnt/c/playground/C/mosquitto-master/cmake-build-debug/man/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/mnt/c/playground/C/mosquitto-master/cmake-build-debug/man/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mosquitto_pub.1">
+				<Option working_dir="/mnt/c/playground/C/mosquitto-master/cmake-build-debug/man"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/mnt/c/playground/C/mosquitto-master/cmake-build-debug/man/Makefile&quot;  VERBOSE=1 mosquitto_pub.1"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/mnt/c/playground/C/mosquitto-master/cmake-build-debug/man/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/mnt/c/playground/C/mosquitto-master/cmake-build-debug/man/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/mnt/c/playground/C/mosquitto-master/cmake-build-debug/man/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mosquitto_sub.1">
+				<Option working_dir="/mnt/c/playground/C/mosquitto-master/cmake-build-debug/man"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/mnt/c/playground/C/mosquitto-master/cmake-build-debug/man/Makefile&quot;  VERBOSE=1 mosquitto_sub.1"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/mnt/c/playground/C/mosquitto-master/cmake-build-debug/man/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/mnt/c/playground/C/mosquitto-master/cmake-build-debug/man/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/mnt/c/playground/C/mosquitto-master/cmake-build-debug/man/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mosquitto_rr.1">
+				<Option working_dir="/mnt/c/playground/C/mosquitto-master/cmake-build-debug/man"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/mnt/c/playground/C/mosquitto-master/cmake-build-debug/man/Makefile&quot;  VERBOSE=1 mosquitto_rr.1"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/mnt/c/playground/C/mosquitto-master/cmake-build-debug/man/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/mnt/c/playground/C/mosquitto-master/cmake-build-debug/man/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/mnt/c/playground/C/mosquitto-master/cmake-build-debug/man/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="libmosquitto.3">
+				<Option working_dir="/mnt/c/playground/C/mosquitto-master/cmake-build-debug/man"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/mnt/c/playground/C/mosquitto-master/cmake-build-debug/man/Makefile&quot;  VERBOSE=1 libmosquitto.3"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/mnt/c/playground/C/mosquitto-master/cmake-build-debug/man/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/mnt/c/playground/C/mosquitto-master/cmake-build-debug/man/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/mnt/c/playground/C/mosquitto-master/cmake-build-debug/man/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mosquitto.conf.5">
+				<Option working_dir="/mnt/c/playground/C/mosquitto-master/cmake-build-debug/man"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/mnt/c/playground/C/mosquitto-master/cmake-build-debug/man/Makefile&quot;  VERBOSE=1 mosquitto.conf.5"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/mnt/c/playground/C/mosquitto-master/cmake-build-debug/man/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/mnt/c/playground/C/mosquitto-master/cmake-build-debug/man/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/mnt/c/playground/C/mosquitto-master/cmake-build-debug/man/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mosquitto-tls.7">
+				<Option working_dir="/mnt/c/playground/C/mosquitto-master/cmake-build-debug/man"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/mnt/c/playground/C/mosquitto-master/cmake-build-debug/man/Makefile&quot;  VERBOSE=1 mosquitto-tls.7"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/mnt/c/playground/C/mosquitto-master/cmake-build-debug/man/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/mnt/c/playground/C/mosquitto-master/cmake-build-debug/man/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/mnt/c/playground/C/mosquitto-master/cmake-build-debug/man/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mqtt.7">
+				<Option working_dir="/mnt/c/playground/C/mosquitto-master/cmake-build-debug/man"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/mnt/c/playground/C/mosquitto-master/cmake-build-debug/man/Makefile&quot;  VERBOSE=1 mqtt.7"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/mnt/c/playground/C/mosquitto-master/cmake-build-debug/man/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/mnt/c/playground/C/mosquitto-master/cmake-build-debug/man/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/mnt/c/playground/C/mosquitto-master/cmake-build-debug/man/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mosquitto.8">
+				<Option working_dir="/mnt/c/playground/C/mosquitto-master/cmake-build-debug/man"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/mnt/c/playground/C/mosquitto-master/cmake-build-debug/man/Makefile&quot;  VERBOSE=1 mosquitto.8"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/mnt/c/playground/C/mosquitto-master/cmake-build-debug/man/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/mnt/c/playground/C/mosquitto-master/cmake-build-debug/man/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/mnt/c/playground/C/mosquitto-master/cmake-build-debug/man/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/mnt/c/playground/C/mosquitto-master/apps/mosquitto_ctrl/client.c">
+			<Option target="mosquitto_ctrl"/>
+		</Unit>
+		<Unit filename="/mnt/c/playground/C/mosquitto-master/apps/mosquitto_ctrl/dynsec.c">
+			<Option target="mosquitto_ctrl"/>
+		</Unit>
+		<Unit filename="/mnt/c/playground/C/mosquitto-master/apps/mosquitto_ctrl/dynsec_client.c">
+			<Option target="mosquitto_ctrl"/>
+		</Unit>
+		<Unit filename="/mnt/c/playground/C/mosquitto-master/apps/mosquitto_ctrl/dynsec_group.c">
+			<Option target="mosquitto_ctrl"/>
+		</Unit>
+		<Unit filename="/mnt/c/playground/C/mosquitto-master/apps/mosquitto_ctrl/dynsec_role.c">
+			<Option target="mosquitto_ctrl"/>
+		</Unit>
+		<Unit filename="/mnt/c/playground/C/mosquitto-master/apps/mosquitto_ctrl/mosquitto_ctrl.c">
+			<Option target="mosquitto_ctrl"/>
+		</Unit>
+		<Unit filename="/mnt/c/playground/C/mosquitto-master/apps/mosquitto_ctrl/mosquitto_ctrl.h">
+			<Option target="mosquitto_ctrl"/>
+		</Unit>
+		<Unit filename="/mnt/c/playground/C/mosquitto-master/apps/mosquitto_ctrl/options.c">
+			<Option target="mosquitto_ctrl"/>
+		</Unit>
+		<Unit filename="/mnt/c/playground/C/mosquitto-master/apps/mosquitto_passwd/get_password.c">
+			<Option target="mosquitto_ctrl"/>
+			<Option target="mosquitto_passwd"/>
+		</Unit>
+		<Unit filename="/mnt/c/playground/C/mosquitto-master/apps/mosquitto_passwd/get_password.h">
+			<Option target="mosquitto_ctrl"/>
+			<Option target="mosquitto_passwd"/>
+		</Unit>
+		<Unit filename="/mnt/c/playground/C/mosquitto-master/apps/mosquitto_passwd/mosquitto_passwd.c">
+			<Option target="mosquitto_passwd"/>
+		</Unit>
+		<Unit filename="/mnt/c/playground/C/mosquitto-master/client/client_props.c">
+			<Option target="mosquitto_pub"/>
+			<Option target="mosquitto_sub"/>
+			<Option target="mosquitto_rr"/>
+		</Unit>
+		<Unit filename="/mnt/c/playground/C/mosquitto-master/client/client_shared.c">
+			<Option target="mosquitto_pub"/>
+			<Option target="mosquitto_sub"/>
+			<Option target="mosquitto_rr"/>
+		</Unit>
+		<Unit filename="/mnt/c/playground/C/mosquitto-master/client/client_shared.h">
+			<Option target="mosquitto_pub"/>
+			<Option target="mosquitto_sub"/>
+			<Option target="mosquitto_rr"/>
+		</Unit>
+		<Unit filename="/mnt/c/playground/C/mosquitto-master/client/pub_client.c">
+			<Option target="mosquitto_pub"/>
+		</Unit>
+		<Unit filename="/mnt/c/playground/C/mosquitto-master/client/pub_shared.c">
+			<Option target="mosquitto_pub"/>
+			<Option target="mosquitto_rr"/>
+		</Unit>
+		<Unit filename="/mnt/c/playground/C/mosquitto-master/client/pub_shared.h">
+			<Option target="mosquitto_pub"/>
+			<Option target="mosquitto_rr"/>
+		</Unit>
+		<Unit filename="/mnt/c/playground/C/mosquitto-master/client/rr_client.c">
+			<Option target="mosquitto_rr"/>
+		</Unit>
+		<Unit filename="/mnt/c/playground/C/mosquitto-master/client/sub_client.c">
+			<Option target="mosquitto_sub"/>
+		</Unit>
+		<Unit filename="/mnt/c/playground/C/mosquitto-master/client/sub_client_output.c">
+			<Option target="mosquitto_sub"/>
+			<Option target="mosquitto_rr"/>
+		</Unit>
+		<Unit filename="/mnt/c/playground/C/mosquitto-master/client/sub_client_output.h">
+			<Option target="mosquitto_sub"/>
+			<Option target="mosquitto_rr"/>
+		</Unit>
+		<Unit filename="/mnt/c/playground/C/mosquitto-master/config.h">
+			<Option target="libmosquitto"/>
+			<Option target="mosquitto"/>
+		</Unit>
+		<Unit filename="/mnt/c/playground/C/mosquitto-master/include/mosquitto.h">
+			<Option target="libmosquitto"/>
+			<Option target="libmosquitto_static"/>
+		</Unit>
+		<Unit filename="/mnt/c/playground/C/mosquitto-master/include/mosquitto_broker.h">
+			<Option target="mosquitto"/>
+		</Unit>
+		<Unit filename="/mnt/c/playground/C/mosquitto-master/include/mqtt_protocol.h">
+			<Option target="libmosquitto"/>
+			<Option target="libmosquitto_static"/>
+		</Unit>
+		<Unit filename="/mnt/c/playground/C/mosquitto-master/include/tquic.h">
+			<Option target="mosquittopp"/>
+			<Option target="mosquitto_pub"/>
+			<Option target="mosquitto_sub"/>
+			<Option target="mosquitto_rr"/>
+		</Unit>
+		<Unit filename="/mnt/c/playground/C/mosquitto-master/include/uthash.h">
+			<Option target="mosquitto"/>
+		</Unit>
+		<Unit filename="/mnt/c/playground/C/mosquitto-master/include/utlist.h">
+			<Option target="libmosquitto"/>
+			<Option target="libmosquitto_static"/>
+			<Option target="mosquitto"/>
+		</Unit>
+		<Unit filename="/mnt/c/playground/C/mosquitto-master/lib/actions.c">
+			<Option target="libmosquitto"/>
+			<Option target="libmosquitto_static"/>
+		</Unit>
+		<Unit filename="/mnt/c/playground/C/mosquitto-master/lib/alias_mosq.c">
+			<Option target="mosquitto"/>
+		</Unit>
+		<Unit filename="/mnt/c/playground/C/mosquitto-master/lib/alias_mosq.h">
+			<Option target="mosquitto"/>
+		</Unit>
+		<Unit filename="/mnt/c/playground/C/mosquitto-master/lib/callbacks.c">
+			<Option target="libmosquitto"/>
+			<Option target="libmosquitto_static"/>
+		</Unit>
+		<Unit filename="/mnt/c/playground/C/mosquitto-master/lib/connect.c">
+			<Option target="libmosquitto"/>
+			<Option target="libmosquitto_static"/>
+		</Unit>
+		<Unit filename="/mnt/c/playground/C/mosquitto-master/lib/cpp/mosquittopp.cpp">
+			<Option target="mosquittopp"/>
+			<Option target="mosquittopp_static"/>
+		</Unit>
+		<Unit filename="/mnt/c/playground/C/mosquitto-master/lib/cpp/mosquittopp.h">
+			<Option target="mosquittopp"/>
+			<Option target="mosquittopp_static"/>
+		</Unit>
+		<Unit filename="/mnt/c/playground/C/mosquitto-master/lib/handle_auth.c">
+			<Option target="libmosquitto"/>
+			<Option target="libmosquitto_static"/>
+		</Unit>
+		<Unit filename="/mnt/c/playground/C/mosquitto-master/lib/handle_connack.c">
+			<Option target="libmosquitto"/>
+			<Option target="libmosquitto_static"/>
+		</Unit>
+		<Unit filename="/mnt/c/playground/C/mosquitto-master/lib/handle_disconnect.c">
+			<Option target="libmosquitto"/>
+			<Option target="libmosquitto_static"/>
+		</Unit>
+		<Unit filename="/mnt/c/playground/C/mosquitto-master/lib/handle_ping.c">
+			<Option target="libmosquitto"/>
+			<Option target="libmosquitto_static"/>
+			<Option target="mosquitto"/>
+		</Unit>
+		<Unit filename="/mnt/c/playground/C/mosquitto-master/lib/handle_pubackcomp.c">
+			<Option target="libmosquitto"/>
+			<Option target="libmosquitto_static"/>
+			<Option target="mosquitto"/>
+		</Unit>
+		<Unit filename="/mnt/c/playground/C/mosquitto-master/lib/handle_publish.c">
+			<Option target="libmosquitto"/>
+			<Option target="libmosquitto_static"/>
+		</Unit>
+		<Unit filename="/mnt/c/playground/C/mosquitto-master/lib/handle_pubrec.c">
+			<Option target="libmosquitto"/>
+			<Option target="libmosquitto_static"/>
+			<Option target="mosquitto"/>
+		</Unit>
+		<Unit filename="/mnt/c/playground/C/mosquitto-master/lib/handle_pubrel.c">
+			<Option target="libmosquitto"/>
+			<Option target="libmosquitto_static"/>
+			<Option target="mosquitto"/>
+		</Unit>
+		<Unit filename="/mnt/c/playground/C/mosquitto-master/lib/handle_suback.c">
+			<Option target="libmosquitto"/>
+			<Option target="libmosquitto_static"/>
+			<Option target="mosquitto"/>
+		</Unit>
+		<Unit filename="/mnt/c/playground/C/mosquitto-master/lib/handle_unsuback.c">
+			<Option target="libmosquitto"/>
+			<Option target="libmosquitto_static"/>
+			<Option target="mosquitto"/>
+		</Unit>
+		<Unit filename="/mnt/c/playground/C/mosquitto-master/lib/helpers.c">
+			<Option target="libmosquitto"/>
+			<Option target="libmosquitto_static"/>
+		</Unit>
+		<Unit filename="/mnt/c/playground/C/mosquitto-master/lib/logging_mosq.c">
+			<Option target="libmosquitto"/>
+			<Option target="libmosquitto_static"/>
+		</Unit>
+		<Unit filename="/mnt/c/playground/C/mosquitto-master/lib/logging_mosq.h">
+			<Option target="libmosquitto"/>
+			<Option target="libmosquitto_static"/>
+		</Unit>
+		<Unit filename="/mnt/c/playground/C/mosquitto-master/lib/loop.c">
+			<Option target="libmosquitto"/>
+			<Option target="libmosquitto_static"/>
+		</Unit>
+		<Unit filename="/mnt/c/playground/C/mosquitto-master/lib/memory_mosq.c">
+			<Option target="libmosquitto"/>
+			<Option target="libmosquitto_static"/>
+			<Option target="mosquitto"/>
+			<Option target="mosquitto_ctrl"/>
+			<Option target="mosquitto_passwd"/>
+		</Unit>
+		<Unit filename="/mnt/c/playground/C/mosquitto-master/lib/memory_mosq.h">
+			<Option target="libmosquitto"/>
+			<Option target="libmosquitto_static"/>
+			<Option target="mosquitto"/>
+			<Option target="mosquitto_ctrl"/>
+			<Option target="mosquitto_passwd"/>
+		</Unit>
+		<Unit filename="/mnt/c/playground/C/mosquitto-master/lib/messages_mosq.c">
+			<Option target="libmosquitto"/>
+			<Option target="libmosquitto_static"/>
+		</Unit>
+		<Unit filename="/mnt/c/playground/C/mosquitto-master/lib/messages_mosq.h">
+			<Option target="libmosquitto"/>
+			<Option target="libmosquitto_static"/>
+		</Unit>
+		<Unit filename="/mnt/c/playground/C/mosquitto-master/lib/misc_mosq.c">
+			<Option target="libmosquitto"/>
+			<Option target="libmosquitto_static"/>
+			<Option target="mosquitto"/>
+			<Option target="mosquitto_ctrl"/>
+			<Option target="mosquitto_passwd"/>
+		</Unit>
+		<Unit filename="/mnt/c/playground/C/mosquitto-master/lib/misc_mosq.h">
+			<Option target="libmosquitto"/>
+			<Option target="libmosquitto_static"/>
+			<Option target="mosquitto"/>
+			<Option target="mosquitto_ctrl"/>
+		</Unit>
+		<Unit filename="/mnt/c/playground/C/mosquitto-master/lib/mosquitto.c">
+			<Option target="libmosquitto"/>
+			<Option target="libmosquitto_static"/>
+		</Unit>
+		<Unit filename="/mnt/c/playground/C/mosquitto-master/lib/mosquitto_internal.h">
+			<Option target="libmosquitto"/>
+			<Option target="libmosquitto_static"/>
+		</Unit>
+		<Unit filename="/mnt/c/playground/C/mosquitto-master/lib/net_mosq.c">
+			<Option target="libmosquitto"/>
+			<Option target="libmosquitto_static"/>
+			<Option target="mosquitto"/>
+		</Unit>
+		<Unit filename="/mnt/c/playground/C/mosquitto-master/lib/net_mosq.h">
+			<Option target="libmosquitto"/>
+			<Option target="libmosquitto_static"/>
+			<Option target="mosquitto"/>
+		</Unit>
+		<Unit filename="/mnt/c/playground/C/mosquitto-master/lib/net_mosq_ocsp.c">
+			<Option target="libmosquitto"/>
+			<Option target="libmosquitto_static"/>
+			<Option target="mosquitto"/>
+		</Unit>
+		<Unit filename="/mnt/c/playground/C/mosquitto-master/lib/options.c">
+			<Option target="libmosquitto"/>
+			<Option target="libmosquitto_static"/>
+		</Unit>
+		<Unit filename="/mnt/c/playground/C/mosquitto-master/lib/packet_datatypes.c">
+			<Option target="libmosquitto"/>
+			<Option target="libmosquitto_static"/>
+			<Option target="mosquitto"/>
+		</Unit>
+		<Unit filename="/mnt/c/playground/C/mosquitto-master/lib/packet_mosq.c">
+			<Option target="libmosquitto"/>
+			<Option target="libmosquitto_static"/>
+			<Option target="mosquitto"/>
+		</Unit>
+		<Unit filename="/mnt/c/playground/C/mosquitto-master/lib/packet_mosq.h">
+			<Option target="libmosquitto"/>
+			<Option target="libmosquitto_static"/>
+			<Option target="mosquitto"/>
+		</Unit>
+		<Unit filename="/mnt/c/playground/C/mosquitto-master/lib/property_mosq.c">
+			<Option target="libmosquitto"/>
+			<Option target="libmosquitto_static"/>
+			<Option target="mosquitto"/>
+		</Unit>
+		<Unit filename="/mnt/c/playground/C/mosquitto-master/lib/property_mosq.h">
+			<Option target="libmosquitto"/>
+			<Option target="libmosquitto_static"/>
+			<Option target="mosquitto"/>
+		</Unit>
+		<Unit filename="/mnt/c/playground/C/mosquitto-master/lib/read_handle.c">
+			<Option target="libmosquitto"/>
+			<Option target="libmosquitto_static"/>
+		</Unit>
+		<Unit filename="/mnt/c/playground/C/mosquitto-master/lib/read_handle.h">
+			<Option target="libmosquitto"/>
+			<Option target="libmosquitto_static"/>
+			<Option target="mosquitto"/>
+		</Unit>
+		<Unit filename="/mnt/c/playground/C/mosquitto-master/lib/send_connect.c">
+			<Option target="libmosquitto"/>
+			<Option target="libmosquitto_static"/>
+			<Option target="mosquitto"/>
+		</Unit>
+		<Unit filename="/mnt/c/playground/C/mosquitto-master/lib/send_disconnect.c">
+			<Option target="libmosquitto"/>
+			<Option target="libmosquitto_static"/>
+			<Option target="mosquitto"/>
+		</Unit>
+		<Unit filename="/mnt/c/playground/C/mosquitto-master/lib/send_mosq.c">
+			<Option target="libmosquitto"/>
+			<Option target="libmosquitto_static"/>
+			<Option target="mosquitto"/>
+		</Unit>
+		<Unit filename="/mnt/c/playground/C/mosquitto-master/lib/send_mosq.h">
+			<Option target="libmosquitto"/>
+			<Option target="libmosquitto_static"/>
+			<Option target="mosquitto"/>
+		</Unit>
+		<Unit filename="/mnt/c/playground/C/mosquitto-master/lib/send_publish.c">
+			<Option target="libmosquitto"/>
+			<Option target="libmosquitto_static"/>
+			<Option target="mosquitto"/>
+		</Unit>
+		<Unit filename="/mnt/c/playground/C/mosquitto-master/lib/send_subscribe.c">
+			<Option target="libmosquitto"/>
+			<Option target="libmosquitto_static"/>
+			<Option target="mosquitto"/>
+		</Unit>
+		<Unit filename="/mnt/c/playground/C/mosquitto-master/lib/send_unsubscribe.c">
+			<Option target="libmosquitto"/>
+			<Option target="libmosquitto_static"/>
+			<Option target="mosquitto"/>
+		</Unit>
+		<Unit filename="/mnt/c/playground/C/mosquitto-master/lib/socks_mosq.c">
+			<Option target="libmosquitto"/>
+			<Option target="libmosquitto_static"/>
+		</Unit>
+		<Unit filename="/mnt/c/playground/C/mosquitto-master/lib/socks_mosq.h">
+			<Option target="libmosquitto"/>
+			<Option target="libmosquitto_static"/>
+		</Unit>
+		<Unit filename="/mnt/c/playground/C/mosquitto-master/lib/srv_mosq.c">
+			<Option target="libmosquitto"/>
+			<Option target="libmosquitto_static"/>
+		</Unit>
+		<Unit filename="/mnt/c/playground/C/mosquitto-master/lib/strings_mosq.c">
+			<Option target="libmosquitto"/>
+			<Option target="libmosquitto_static"/>
+			<Option target="mosquitto"/>
+		</Unit>
+		<Unit filename="/mnt/c/playground/C/mosquitto-master/lib/thread_mosq.c">
+			<Option target="libmosquitto"/>
+			<Option target="libmosquitto_static"/>
+		</Unit>
+		<Unit filename="/mnt/c/playground/C/mosquitto-master/lib/time_mosq.c">
+			<Option target="libmosquitto"/>
+			<Option target="libmosquitto_static"/>
+			<Option target="mosquitto"/>
+		</Unit>
+		<Unit filename="/mnt/c/playground/C/mosquitto-master/lib/time_mosq.h">
+			<Option target="libmosquitto"/>
+			<Option target="libmosquitto_static"/>
+			<Option target="mosquitto"/>
+		</Unit>
+		<Unit filename="/mnt/c/playground/C/mosquitto-master/lib/tls_mosq.c">
+			<Option target="libmosquitto"/>
+			<Option target="libmosquitto_static"/>
+			<Option target="mosquitto"/>
+		</Unit>
+		<Unit filename="/mnt/c/playground/C/mosquitto-master/lib/tls_mosq.h">
+			<Option target="libmosquitto"/>
+			<Option target="libmosquitto_static"/>
+			<Option target="mosquitto"/>
+		</Unit>
+		<Unit filename="/mnt/c/playground/C/mosquitto-master/lib/utf8_mosq.c">
+			<Option target="libmosquitto"/>
+			<Option target="libmosquitto_static"/>
+			<Option target="mosquitto"/>
+		</Unit>
+		<Unit filename="/mnt/c/playground/C/mosquitto-master/lib/util_mosq.c">
+			<Option target="libmosquitto"/>
+			<Option target="libmosquitto_static"/>
+			<Option target="mosquitto"/>
+		</Unit>
+		<Unit filename="/mnt/c/playground/C/mosquitto-master/lib/util_mosq.h">
+			<Option target="libmosquitto"/>
+			<Option target="libmosquitto_static"/>
+			<Option target="mosquitto"/>
+		</Unit>
+		<Unit filename="/mnt/c/playground/C/mosquitto-master/lib/util_topic.c">
+			<Option target="libmosquitto"/>
+			<Option target="libmosquitto_static"/>
+			<Option target="mosquitto"/>
+		</Unit>
+		<Unit filename="/mnt/c/playground/C/mosquitto-master/lib/will_mosq.c">
+			<Option target="libmosquitto"/>
+			<Option target="libmosquitto_static"/>
+			<Option target="mosquitto"/>
+		</Unit>
+		<Unit filename="/mnt/c/playground/C/mosquitto-master/lib/will_mosq.h">
+			<Option target="libmosquitto"/>
+			<Option target="libmosquitto_static"/>
+			<Option target="mosquitto"/>
+		</Unit>
+		<Unit filename="/mnt/c/playground/C/mosquitto-master/man/libmosquitto.3.xml">
+			<Option target="libmosquitto.3"/>
+		</Unit>
+		<Unit filename="/mnt/c/playground/C/mosquitto-master/man/mosquitto-tls.7.xml">
+			<Option target="mosquitto-tls.7"/>
+		</Unit>
+		<Unit filename="/mnt/c/playground/C/mosquitto-master/man/mosquitto.8.xml">
+			<Option target="mosquitto.8"/>
+		</Unit>
+		<Unit filename="/mnt/c/playground/C/mosquitto-master/man/mosquitto.conf.5.xml">
+			<Option target="mosquitto.conf.5"/>
+		</Unit>
+		<Unit filename="/mnt/c/playground/C/mosquitto-master/man/mosquitto_ctrl.1.xml">
+			<Option target="mosquitto_ctrl.1"/>
+		</Unit>
+		<Unit filename="/mnt/c/playground/C/mosquitto-master/man/mosquitto_ctrl_dynsec.1.xml">
+			<Option target="mosquitto_ctrl_dynsec.1"/>
+		</Unit>
+		<Unit filename="/mnt/c/playground/C/mosquitto-master/man/mosquitto_passwd.1.xml">
+			<Option target="mosquitto_passwd.1"/>
+		</Unit>
+		<Unit filename="/mnt/c/playground/C/mosquitto-master/man/mosquitto_pub.1.xml">
+			<Option target="mosquitto_pub.1"/>
+		</Unit>
+		<Unit filename="/mnt/c/playground/C/mosquitto-master/man/mosquitto_rr.1.xml">
+			<Option target="mosquitto_rr.1"/>
+		</Unit>
+		<Unit filename="/mnt/c/playground/C/mosquitto-master/man/mosquitto_sub.1.xml">
+			<Option target="mosquitto_sub.1"/>
+		</Unit>
+		<Unit filename="/mnt/c/playground/C/mosquitto-master/man/mqtt.7.xml">
+			<Option target="mqtt.7"/>
+		</Unit>
+		<Unit filename="/mnt/c/playground/C/mosquitto-master/plugins/dynamic-security/acl.c">
+			<Option target="mosquitto_dynamic_security"/>
+		</Unit>
+		<Unit filename="/mnt/c/playground/C/mosquitto-master/plugins/dynamic-security/auth.c">
+			<Option target="mosquitto_dynamic_security"/>
+		</Unit>
+		<Unit filename="/mnt/c/playground/C/mosquitto-master/plugins/dynamic-security/clientlist.c">
+			<Option target="mosquitto_dynamic_security"/>
+		</Unit>
+		<Unit filename="/mnt/c/playground/C/mosquitto-master/plugins/dynamic-security/clients.c">
+			<Option target="mosquitto_dynamic_security"/>
+		</Unit>
+		<Unit filename="/mnt/c/playground/C/mosquitto-master/plugins/dynamic-security/dynamic_security.h">
+			<Option target="mosquitto_dynamic_security"/>
+		</Unit>
+		<Unit filename="/mnt/c/playground/C/mosquitto-master/plugins/dynamic-security/grouplist.c">
+			<Option target="mosquitto_dynamic_security"/>
+		</Unit>
+		<Unit filename="/mnt/c/playground/C/mosquitto-master/plugins/dynamic-security/groups.c">
+			<Option target="mosquitto_dynamic_security"/>
+		</Unit>
+		<Unit filename="/mnt/c/playground/C/mosquitto-master/plugins/dynamic-security/json_help.c">
+			<Option target="mosquitto_dynamic_security"/>
+		</Unit>
+		<Unit filename="/mnt/c/playground/C/mosquitto-master/plugins/dynamic-security/json_help.h">
+			<Option target="mosquitto_dynamic_security"/>
+		</Unit>
+		<Unit filename="/mnt/c/playground/C/mosquitto-master/plugins/dynamic-security/plugin.c">
+			<Option target="mosquitto_dynamic_security"/>
+		</Unit>
+		<Unit filename="/mnt/c/playground/C/mosquitto-master/plugins/dynamic-security/rolelist.c">
+			<Option target="mosquitto_dynamic_security"/>
+		</Unit>
+		<Unit filename="/mnt/c/playground/C/mosquitto-master/plugins/dynamic-security/roles.c">
+			<Option target="mosquitto_dynamic_security"/>
+		</Unit>
+		<Unit filename="/mnt/c/playground/C/mosquitto-master/plugins/dynamic-security/sub_matches_sub.c">
+			<Option target="mosquitto_dynamic_security"/>
+		</Unit>
+		<Unit filename="/mnt/c/playground/C/mosquitto-master/plugins/message-timestamp/mosquitto_message_timestamp.c">
+			<Option target="mosquitto_message_timestamp"/>
+		</Unit>
+		<Unit filename="/mnt/c/playground/C/mosquitto-master/plugins/payload-modification/mosquitto_payload_modification.c">
+			<Option target="mosquitto_payload_modification"/>
+		</Unit>
+		<Unit filename="/mnt/c/playground/C/mosquitto-master/src/bridge.c">
+			<Option target="mosquitto"/>
+		</Unit>
+		<Unit filename="/mnt/c/playground/C/mosquitto-master/src/bridge_topic.c">
+			<Option target="mosquitto"/>
+		</Unit>
+		<Unit filename="/mnt/c/playground/C/mosquitto-master/src/conf.c">
+			<Option target="mosquitto"/>
+		</Unit>
+		<Unit filename="/mnt/c/playground/C/mosquitto-master/src/conf_includedir.c">
+			<Option target="mosquitto"/>
+		</Unit>
+		<Unit filename="/mnt/c/playground/C/mosquitto-master/src/context.c">
+			<Option target="mosquitto"/>
+		</Unit>
+		<Unit filename="/mnt/c/playground/C/mosquitto-master/src/control.c">
+			<Option target="mosquitto"/>
+		</Unit>
+		<Unit filename="/mnt/c/playground/C/mosquitto-master/src/database.c">
+			<Option target="mosquitto"/>
+		</Unit>
+		<Unit filename="/mnt/c/playground/C/mosquitto-master/src/handle_auth.c">
+			<Option target="mosquitto"/>
+		</Unit>
+		<Unit filename="/mnt/c/playground/C/mosquitto-master/src/handle_connack.c">
+			<Option target="mosquitto"/>
+		</Unit>
+		<Unit filename="/mnt/c/playground/C/mosquitto-master/src/handle_connect.c">
+			<Option target="mosquitto"/>
+		</Unit>
+		<Unit filename="/mnt/c/playground/C/mosquitto-master/src/handle_disconnect.c">
+			<Option target="mosquitto"/>
+		</Unit>
+		<Unit filename="/mnt/c/playground/C/mosquitto-master/src/handle_publish.c">
+			<Option target="mosquitto"/>
+		</Unit>
+		<Unit filename="/mnt/c/playground/C/mosquitto-master/src/handle_subscribe.c">
+			<Option target="mosquitto"/>
+		</Unit>
+		<Unit filename="/mnt/c/playground/C/mosquitto-master/src/handle_unsubscribe.c">
+			<Option target="mosquitto"/>
+		</Unit>
+		<Unit filename="/mnt/c/playground/C/mosquitto-master/src/keepalive.c">
+			<Option target="mosquitto"/>
+		</Unit>
+		<Unit filename="/mnt/c/playground/C/mosquitto-master/src/lib_load.h">
+			<Option target="mosquitto"/>
+		</Unit>
+		<Unit filename="/mnt/c/playground/C/mosquitto-master/src/logging.c">
+			<Option target="mosquitto"/>
+		</Unit>
+		<Unit filename="/mnt/c/playground/C/mosquitto-master/src/loop.c">
+			<Option target="mosquitto"/>
+		</Unit>
+		<Unit filename="/mnt/c/playground/C/mosquitto-master/src/memory_public.c">
+			<Option target="mosquitto"/>
+			<Option target="mosquitto_ctrl"/>
+			<Option target="mosquitto_passwd"/>
+		</Unit>
+		<Unit filename="/mnt/c/playground/C/mosquitto-master/src/mosquitto.c">
+			<Option target="mosquitto"/>
+		</Unit>
+		<Unit filename="/mnt/c/playground/C/mosquitto-master/src/mosquitto_broker_internal.h">
+			<Option target="mosquitto"/>
+		</Unit>
+		<Unit filename="/mnt/c/playground/C/mosquitto-master/src/mux.c">
+			<Option target="mosquitto"/>
+		</Unit>
+		<Unit filename="/mnt/c/playground/C/mosquitto-master/src/mux.h">
+			<Option target="mosquitto"/>
+		</Unit>
+		<Unit filename="/mnt/c/playground/C/mosquitto-master/src/mux_epoll.c">
+			<Option target="mosquitto"/>
+		</Unit>
+		<Unit filename="/mnt/c/playground/C/mosquitto-master/src/mux_poll.c">
+			<Option target="mosquitto"/>
+		</Unit>
+		<Unit filename="/mnt/c/playground/C/mosquitto-master/src/net.c">
+			<Option target="mosquitto"/>
+		</Unit>
+		<Unit filename="/mnt/c/playground/C/mosquitto-master/src/password_mosq.c">
+			<Option target="mosquitto"/>
+			<Option target="mosquitto_ctrl"/>
+			<Option target="mosquitto_passwd"/>
+		</Unit>
+		<Unit filename="/mnt/c/playground/C/mosquitto-master/src/password_mosq.h">
+			<Option target="mosquitto"/>
+			<Option target="mosquitto_ctrl"/>
+			<Option target="mosquitto_passwd"/>
+		</Unit>
+		<Unit filename="/mnt/c/playground/C/mosquitto-master/src/persist.h">
+			<Option target="mosquitto"/>
+		</Unit>
+		<Unit filename="/mnt/c/playground/C/mosquitto-master/src/persist_read.c">
+			<Option target="mosquitto"/>
+		</Unit>
+		<Unit filename="/mnt/c/playground/C/mosquitto-master/src/persist_read_v234.c">
+			<Option target="mosquitto"/>
+		</Unit>
+		<Unit filename="/mnt/c/playground/C/mosquitto-master/src/persist_read_v5.c">
+			<Option target="mosquitto"/>
+		</Unit>
+		<Unit filename="/mnt/c/playground/C/mosquitto-master/src/persist_write.c">
+			<Option target="mosquitto"/>
+		</Unit>
+		<Unit filename="/mnt/c/playground/C/mosquitto-master/src/persist_write_v5.c">
+			<Option target="mosquitto"/>
+		</Unit>
+		<Unit filename="/mnt/c/playground/C/mosquitto-master/src/plugin.c">
+			<Option target="mosquitto"/>
+		</Unit>
+		<Unit filename="/mnt/c/playground/C/mosquitto-master/src/plugin_public.c">
+			<Option target="mosquitto"/>
+		</Unit>
+		<Unit filename="/mnt/c/playground/C/mosquitto-master/src/property_broker.c">
+			<Option target="mosquitto"/>
+		</Unit>
+		<Unit filename="/mnt/c/playground/C/mosquitto-master/src/quic_simple_client.c">
+			<Option target="libmosquitto"/>
+			<Option target="mosquitto"/>
+		</Unit>
+		<Unit filename="/mnt/c/playground/C/mosquitto-master/src/quic_simple_server.c">
+			<Option target="libmosquitto"/>
+			<Option target="mosquitto"/>
+		</Unit>
+		<Unit filename="/mnt/c/playground/C/mosquitto-master/src/quic_support.h">
+			<Option target="libmosquitto"/>
+			<Option target="libmosquitto_static"/>
+			<Option target="mosquittopp"/>
+			<Option target="mosquitto_pub"/>
+			<Option target="mosquitto_sub"/>
+			<Option target="mosquitto_rr"/>
+			<Option target="mosquitto"/>
+		</Unit>
+		<Unit filename="/mnt/c/playground/C/mosquitto-master/src/read_handle.c">
+			<Option target="mosquitto"/>
+		</Unit>
+		<Unit filename="/mnt/c/playground/C/mosquitto-master/src/retain.c">
+			<Option target="mosquitto"/>
+		</Unit>
+		<Unit filename="/mnt/c/playground/C/mosquitto-master/src/security.c">
+			<Option target="mosquitto"/>
+		</Unit>
+		<Unit filename="/mnt/c/playground/C/mosquitto-master/src/security_default.c">
+			<Option target="mosquitto"/>
+		</Unit>
+		<Unit filename="/mnt/c/playground/C/mosquitto-master/src/send_auth.c">
+			<Option target="mosquitto"/>
+		</Unit>
+		<Unit filename="/mnt/c/playground/C/mosquitto-master/src/send_connack.c">
+			<Option target="mosquitto"/>
+		</Unit>
+		<Unit filename="/mnt/c/playground/C/mosquitto-master/src/send_suback.c">
+			<Option target="mosquitto"/>
+		</Unit>
+		<Unit filename="/mnt/c/playground/C/mosquitto-master/src/send_unsuback.c">
+			<Option target="mosquitto"/>
+		</Unit>
+		<Unit filename="/mnt/c/playground/C/mosquitto-master/src/session_expiry.c">
+			<Option target="mosquitto"/>
+		</Unit>
+		<Unit filename="/mnt/c/playground/C/mosquitto-master/src/signals.c">
+			<Option target="mosquitto"/>
+		</Unit>
+		<Unit filename="/mnt/c/playground/C/mosquitto-master/src/subs.c">
+			<Option target="mosquitto"/>
+		</Unit>
+		<Unit filename="/mnt/c/playground/C/mosquitto-master/src/sys_tree.c">
+			<Option target="mosquitto"/>
+		</Unit>
+		<Unit filename="/mnt/c/playground/C/mosquitto-master/src/sys_tree.h">
+			<Option target="mosquitto"/>
+		</Unit>
+		<Unit filename="/mnt/c/playground/C/mosquitto-master/src/topic_tok.c">
+			<Option target="mosquitto"/>
+		</Unit>
+		<Unit filename="/mnt/c/playground/C/mosquitto-master/src/websockets.c">
+			<Option target="mosquitto"/>
+		</Unit>
+		<Unit filename="/mnt/c/playground/C/mosquitto-master/src/will_delay.c">
+			<Option target="mosquitto"/>
+		</Unit>
+		<Unit filename="/mnt/c/playground/C/mosquitto-master/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/mnt/c/playground/C/mosquitto-master/libmosquitto.pc.in">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/mnt/c/playground/C/mosquitto-master/libmosquittopp.pc.in">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/mnt/c/playground/C/mosquitto-master/cmake/FindcJSON.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/mnt/c/playground/C/mosquitto-master/lib/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\"/>
+		</Unit>
+		<Unit filename="/mnt/c/playground/C/mosquitto-master/lib/cpp/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\cpp\"/>
+		</Unit>
+		<Unit filename="/mnt/c/playground/C/mosquitto-master/client/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\client\"/>
+		</Unit>
+		<Unit filename="/mnt/c/playground/C/mosquitto-master/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\"/>
+		</Unit>
+		<Unit filename="/mnt/c/playground/C/mosquitto-master/apps/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\apps\"/>
+		</Unit>
+		<Unit filename="/mnt/c/playground/C/mosquitto-master/apps/mosquitto_ctrl/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\apps\mosquitto_ctrl\"/>
+		</Unit>
+		<Unit filename="/mnt/c/playground/C/mosquitto-master/apps/mosquitto_passwd/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\apps\mosquitto_passwd\"/>
+		</Unit>
+		<Unit filename="/mnt/c/playground/C/mosquitto-master/plugins/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\plugins\"/>
+		</Unit>
+		<Unit filename="/mnt/c/playground/C/mosquitto-master/plugins/dynamic-security/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\plugins\dynamic-security\"/>
+		</Unit>
+		<Unit filename="/mnt/c/playground/C/mosquitto-master/plugins/message-timestamp/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\plugins\message-timestamp\"/>
+		</Unit>
+		<Unit filename="/mnt/c/playground/C/mosquitto-master/plugins/payload-modification/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\plugins\payload-modification\"/>
+		</Unit>
+		<Unit filename="/mnt/c/playground/C/mosquitto-master/man/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\man\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

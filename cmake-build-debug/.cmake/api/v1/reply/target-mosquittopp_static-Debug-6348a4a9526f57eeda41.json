@@ -1,0 +1,225 @@
+{
+	"archive" : {},
+	"artifacts" : 
+	[
+		{
+			"path" : "lib/cpp/libmosquittopp_static.a"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"install",
+			"add_definitions",
+			"target_compile_definitions",
+			"include_directories"
+		],
+		"files" : 
+		[
+			"lib/cpp/CMakeLists.txt",
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 25,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 43,
+				"parent" : 0
+			},
+			{
+				"file" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 15,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 42,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 44,
+				"parent" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 58,
+				"parent" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 68,
+				"parent" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 37,
+				"parent" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 40,
+				"parent" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 53,
+				"parent" : 3
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 1,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g -fdiagnostics-color=always"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 4,
+					"define" : "CMAKE"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "LIBMOSQUITTO_STATIC"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "VERSION=\"2.0.18\""
+				},
+				{
+					"backtrace" : 6,
+					"define" : "WITH_EC"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "WITH_SOCKS"
+				},
+				{
+					"backtrace" : 8,
+					"define" : "WITH_THREADING"
+				},
+				{
+					"backtrace" : 9,
+					"define" : "WITH_TLS"
+				},
+				{
+					"backtrace" : 10,
+					"define" : "WITH_TLS_PSK"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "WITH_UNIX_SOCKETS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 12,
+					"path" : "/mnt/c/playground/C/mosquitto-master/lib"
+				},
+				{
+					"backtrace" : 12,
+					"path" : "/mnt/c/playground/C/mosquitto-master/lib/cpp"
+				},
+				{
+					"backtrace" : 12,
+					"path" : "/mnt/c/playground/C/mosquitto-master/include"
+				}
+			],
+			"language" : "CXX",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"id" : "mosquittopp_static::@2058d68873c3ad8b59af",
+	"install" : 
+	{
+		"destinations" : 
+		[
+			{
+				"backtrace" : 2,
+				"path" : "lib"
+			}
+		],
+		"prefix" : 
+		{
+			"path" : "/usr/local"
+		}
+	},
+	"name" : "mosquittopp_static",
+	"nameOnDisk" : "libmosquittopp_static.a",
+	"paths" : 
+	{
+		"build" : "lib/cpp",
+		"source" : "lib/cpp"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				1
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "lib/cpp/mosquittopp.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "lib/cpp/mosquittopp.h",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "STATIC_LIBRARY"
+}
